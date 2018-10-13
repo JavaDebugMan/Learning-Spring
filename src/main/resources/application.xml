@@ -13,4 +13,7 @@
     <bean id="asTest" class="com.javaman.aop.AspectJTest"></bean>
 
 
+<!--    <bean id="car" class="com.javaman.factorybean.CarFatoryBean" carInfo="跑车,400,3000"></bean>-->
+
+
 </beans>
