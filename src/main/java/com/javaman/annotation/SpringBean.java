@@ -17,4 +17,8 @@ public class SpringBean {
     public void setName(String name) {
         this.name = name;
     }
+
+    private void init() {
+        System.out.println("init");
+    }
 }

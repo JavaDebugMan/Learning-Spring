@@ -14,6 +14,8 @@ public class TestSpringBean {
     public static void main(String[] args) {
         BeanFactory beanFactory = new AnnotationConfigApplicationContext(JavaAnnotationBean.class);
         SpringBean springBean = (SpringBean) beanFactory.getBean("springBean");
+       // System.out.println(springBean.getClass());
+       // System.out.println(springBean);
         System.out.println(springBean.getName());
     }
 }
