@@ -1,2 +1,4 @@
 http\://www.lexueba.com/schema/user.xsd=META-INF/spring-user.xsd
+http\://www.smart.com/schema/service.xsd=userservice.xsd
+
 
