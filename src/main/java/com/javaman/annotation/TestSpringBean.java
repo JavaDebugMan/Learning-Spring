@@ -12,10 +12,10 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class TestSpringBean {
 
     public static void main(String[] args) {
-        BeanFactory beanFactory = new AnnotationConfigApplicationContext(JavaAnnotationBean.class);
+        BeanFactory beanFactory = new AnnotationConfigApplicationContext("com.javaman.annotation");
         SpringBean springBean = (SpringBean) beanFactory.getBean("springBean");
-       // System.out.println(springBean.getClass());
-       // System.out.println(springBean);
+        ComponentClass componentClass = (ComponentClass) beanFactory.getBean("componentClass");
+        System.out.println(componentClass.getName());
         System.out.println(springBean.getName());
     }
 }
