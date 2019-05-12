@@ -12,10 +12,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class TestSpringBean {
 
     public static void main(String[] args) {
+        //单例Bean已全部实例化
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.javaman.annotation");
       //  SpringBean springBean = (SpringBean) applicationContext.getBean("springBean");
        // ComponentClass componentClass = (ComponentClass) applicationContext.getBean("componentClass");
-
+        System.out.println("123");
         JavaBean javaBean = (JavaBean) applicationContext.getBean("javaBean");
 
         System.out.println(javaBean.getName());
