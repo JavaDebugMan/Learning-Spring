@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Scope;
  */
 public class JavaAnnotationBean {
 
+
     @Bean(initMethod = "init")
     @Lazy
     public SpringBean springBean() {
