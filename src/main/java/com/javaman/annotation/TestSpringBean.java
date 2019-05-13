@@ -14,7 +14,11 @@ public class TestSpringBean {
     public static void main(String[] args) {
         //单例Bean已全部实例化
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.javaman.annotation");
-      //  SpringBean springBean = (SpringBean) applicationContext.getBean("springBean");
+
+        String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
+        System.out.println(beanDefinitionNames);
+
+        //  SpringBean springBean = (SpringBean) applicationContext.getBean("springBean");
        // ComponentClass componentClass = (ComponentClass) applicationContext.getBean("componentClass");
         System.out.println("123");
         JavaBean javaBean = (JavaBean) applicationContext.getBean("javaBean");
