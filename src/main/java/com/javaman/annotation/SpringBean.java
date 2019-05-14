@@ -1,7 +1,8 @@
-/*
 package com.javaman.annotation;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class SpringBean {
 
     private String name = "name";
@@ -18,4 +19,3 @@ public class SpringBean {
         System.out.println("init");
     }
 }
-*/
