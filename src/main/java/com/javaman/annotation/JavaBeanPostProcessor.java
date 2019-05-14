@@ -1,3 +1,4 @@
+/*
 package com.javaman.annotation;
 
 import org.springframework.beans.BeansException;
@@ -8,7 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class JavaBeanPostProcessor implements BeanPostProcessor {
-    /**
+    */
+/**
      * Apply this BeanPostProcessor to the given new bean instance <i>before</i> any bean
      * initialization callbacks (like InitializingBean's {@code afterPropertiesSet}
      * or a custom init-method). The bean will already be populated with property values.
@@ -20,7 +22,8 @@ public class JavaBeanPostProcessor implements BeanPostProcessor {
      * {@code null}, no subsequent BeanPostProcessors will be invoked
      * @throws BeansException in case of errors
      * @see InitializingBean#afterPropertiesSet
-     */
+     *//*
+
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         System.out.println("JavaBeanPostProcessor 被调用了 哦也");
         if ("javaBean".equalsIgnoreCase(beanName)) {
@@ -30,7 +33,8 @@ public class JavaBeanPostProcessor implements BeanPostProcessor {
         return bean;
     }
 
-    /**
+    */
+/**
      * Apply this BeanPostProcessor to the given new bean instance <i>after</i> any bean
      * initialization callbacks (like InitializingBean's {@code afterPropertiesSet}
      * or a custom init-method). The bean will already be populated with property values.
@@ -50,8 +54,10 @@ public class JavaBeanPostProcessor implements BeanPostProcessor {
      * @throws BeansException in case of errors
      * @see InitializingBean#afterPropertiesSet
      * @see FactoryBean
-     */
+     *//*
+
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         return bean;
     }
 }
+*/

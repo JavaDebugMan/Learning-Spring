@@ -1,3 +1,4 @@
+/*
 package com.javaman.annotation;
 
 import org.springframework.stereotype.Component;
@@ -15,3 +16,4 @@ public class ComponentClass {
         this.name = name;
     }
 }
+*/

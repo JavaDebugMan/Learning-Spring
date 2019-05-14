@@ -1,10 +1,6 @@
+/*
 package com.javaman.annotation;
 
-/**
- * @author pengzhe
- * @date 2018/6/10 14:21
- * @description
- */
 
 public class SpringBean {
 
@@ -22,3 +18,4 @@ public class SpringBean {
         System.out.println("init");
     }
 }
+*/

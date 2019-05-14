@@ -1,3 +1,4 @@
+/*
 package com.javaman.annotation;
 
 import org.springframework.context.annotation.Bean;
@@ -8,9 +9,10 @@ import org.springframework.context.annotation.Import;
 @Import(ImportBean.class)
 public class ConfigurationClass {
 
-    @Bean(initMethod = "init")
+    @Bean
     public SpringBean springBean() {
         return new SpringBean();
     }
 
 }
+*/

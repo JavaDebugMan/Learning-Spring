@@ -1,14 +1,17 @@
+/*
 package com.javaman.aop;
 
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 
+*/
 /**
  * @author pengzhe
  * @date 2018/4/21 14:44
  * @description
- */
+ *//*
+
 @Aspect
 public class AspectJTest {
 
@@ -42,3 +45,4 @@ public class AspectJTest {
     }
 
 }
+*/

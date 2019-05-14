@@ -1,3 +1,4 @@
+/*
 package com.jacaman.test;
 
 import com.javaman.bean.MyTestBean;
@@ -7,11 +8,13 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
 
+*/
 /**
  * @author pengzhe
  * @date 2018/4/20 00:10
  * @description
- */
+ *//*
+
 
 public class BeanFactoryTest {
     @Test
@@ -22,3 +25,4 @@ public class BeanFactoryTest {
         System.out.println(myTestBean.getTestStr());
     }
 }
+*/
